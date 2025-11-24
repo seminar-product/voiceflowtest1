@@ -1,0 +1,31 @@
+/* H1 */
+.vfrc-system-response .vfrc-message h1 {
+  font-size: 26px;
+  font-weight: 700;
+  margin: 16px 0 8px;
+  color: #1A1A1A;
+}
+
+/* H2 */
+.vfrc-system-response .vfrc-message h2 {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 14px 0 6px;
+  color: #333333;
+}
+
+/* H3 */
+.vfrc-system-response .vfrc-message h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 12px 0 4px;
+  color: #444444;
+}
+
+/* H4 */
+.vfrc-system-response .vfrc-message h4 {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 10px 0 2px;
+  color: #555555;
+}
