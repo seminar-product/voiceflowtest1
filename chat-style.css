@@ -1,0 +1,64 @@
+/* Standard HTML Heading Default Styling */
+/* ------------------------------ */
+.vfrc-system-response {
+  --dark-blue: #065369;
+  --light-blue: #2F7082;
+  --very-light-blue: #51A9C1;
+  --mid-light-blue: #1592B4
+}
+
+
+/* H1 */
+.vfrc-system-response .vfrc-message h1 {
+  font-size: 26px;
+  font-weight: 700;
+  margin: 16px 0 8px;
+  color: var(--dark-blue);
+}
+
+/* H2 */
+.vfrc-system-response .vfrc-message h2 {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 14px 0 6px;
+  color: var(--light-blue);
+}
+
+/* H3 */
+.vfrc-system-response .vfrc-message h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 12px 0 4px;
+  color: var(--mid-light-blue);
+}
+
+/* H4 */
+.vfrc-system-response .vfrc-message h4 {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 10px 0 2px;
+  color: var(--very-light-blue);
+}
+
+/* HTML Table Styling */
+table {
+	width: 100% /* Spaces out the table content */
+}
+
+th, td {
+  padding: 12px 15px; /* Adds space inside cells */
+  text-align: left; /* Aligns text to the left */
+  border-bottom: 1px solid #ddd; /* Adds a light bottom border to each cell */
+}
+
+thead th {
+  background-color: #382641; /* Seminar purple */
+  color: #f9f9f9;
+  font-weight: bold;
+}
+
+tbody tr:nth-of-type(even) {
+  background-color: #f9f9f9; /* Zebra-striping: light gray background for even rows */
+}
+
+tbody tr:nth-of-
