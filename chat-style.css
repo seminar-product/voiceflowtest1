@@ -63,5 +63,5 @@ tbody tr:nth-of-type(even) {
 }
 
 tbody tr:nth-of-type(odd) {
-  background-color: #ffffff; /* Zebra-striping: white background for odd rows */
+  background-color: #e0e0e0; /* Zebra-striping: white background for odd rows */
 }
