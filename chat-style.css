@@ -4,7 +4,8 @@
   --dark-blue: #065369;
   --light-blue: #2F7082;
   --very-light-blue: #51A9C1;
-  --mid-light-blue: #1592B4
+  --mid-light-blue: #1592B4;
+  --seminar-purple: #382641;
 }
 
 
@@ -52,7 +53,7 @@ th, td {
 }
 
 thead th {
-  background-color: #382641; /* Seminar purple */
+  background-color: var(--seminar-purple); /* Seminar purple */
   color: #f9f9f9;
   font-weight: bold;
 }
