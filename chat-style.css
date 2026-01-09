@@ -63,5 +63,14 @@ tbody tr:nth-of-type(even) {
 }
 
 tbody tr:nth-of-type(odd) {
-  background-color: #e0e0e0; /* Zebra-striping: white background for odd rows */
+  background-color: #e0e0e0; /* Zebra-striping: dark gray background for odd rows */
+}
+
+.vfrc-system-response .vfrc-button {
+  white-space: normal;
+  height: auto !important;       /* Adjusts height to accommodate wrapped text */
+  text-align: left;             /* Text to align to the left */
+  min-height: 40px;             /* Maintains a consistent minimum look */
+  word-break: break-word;       /* Ensures long words don't overflow */
+  padding: 8px 12px;           /* Adds padding for readability */
 }
